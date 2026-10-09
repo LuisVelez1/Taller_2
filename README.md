@@ -1,3 +1,7 @@
+Daniel Felipe Monsalve
+Johan Gomez
+Luis Eduardo velez
+
 # 1
 
 a. ¿Qué patrón de diseño utilizaría?
@@ -16,3 +20,22 @@ b. ¿ Explique en 2 o 3 líneas por qué considera que este patrón es apropiado
 Porque Facade Usa Interfaz simplificada para un grupo de clases.con una sola operacion como Purchase, la fachase se encargaría
 de cordinar internamente todos los pasos, ya sea revisar el inventario, procesar el pago, organizar el envio y mandar notificación.
 De esta forma el controlador no tiene forma de saber como funciona ni que orden se ejecuta internamente.
+
+# 3
+a. ¿Qué patrón de diseño estructural utilizaría?
+
+R/ el patron proxy
+
+b. Explique brevemente por qué es adecuado para esta situación.
+
+R/ porque el primero valida los datos y despues de validarlos, si la validacion es correcta crea un bloque de seguridad sin cambiar el codigo existente
+
+# 4
+
+a. ¿Qué patrón de diseño estructural utilizaría?
+
+R/ El patron adapter
+
+b. Explique brevemente por qué es adecuado para esta situación.
+
+R/ Actúa como un puente entre dos interfaces incompatibles que permite que la aplicación siga usando su interfaz al envolver la clase y al nuevo método
